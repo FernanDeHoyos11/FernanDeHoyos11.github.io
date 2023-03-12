@@ -1,0 +1,33 @@
+body{
+  background-color: rgb(221, 221, 221) !important;
+}
+#nombre{
+  color: aliceblue;
+}
+#perfil{
+    border-radius: 10px;
+}
+.link{
+  text-decoration: none;
+}
+
+#nav-link:hover{
+  color: rgb(115, 121, 121);
+  font-style: italic;  
+}
+#descarga{
+  text-decoration: none;
+}
+
+#texto{
+  text-justify: auto;
+  text-align: justify;
+}
+#contenedor{
+  background-color: rgb(212, 212, 212);
+  border-radius: 10px;
+}
+
+#comen{
+  height: 100px;
+}

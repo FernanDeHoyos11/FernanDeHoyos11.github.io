@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <script src="https://unpkg.com/sweetalert2@9.5.3/dist/sweetalert2.all.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Fernan De hoyos</title>
+</head>
+
+<body>
+    <div class="container ">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse center-block" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" id="nav-link" aria-current="page" href="#acerca">Acerca de</a>
+                        <a class="nav-link active" id="nav-link" aria-current="page" href="#experiencia">Experiencia</a>
+                        <a class="nav-link active" id="nav-link" aria-current="page" href="#educacion">Educacion</a>
+                        <a class="nav-link active" id="nav-link" aria-current="page" href="#habilidades">Habilidades</a>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+        <nav class="navbar navbar-dark bg-dark justify-content-center">
+            <div class="container justify-content-center">
+                <a class="navbar-brand" href="#">
+                    <img id="perfil" src="./img/perfil.jpg" alt="" width="300px" height="200px">
+                </a>
+                <br>
+            </div>
+            <h1 id="nombre">Fernan David De hoyos</h1>
+            <div class="container justify-content-center">
+                <a href="https://www.facebook.com/fernan.david.5832/" target="_blank"><i
+                        class="fab fa-facebook-f m-2"></i></a>
+                <a href="https://github.com/FernanDeHoyos11" target="_blank"><i class="fab fa-github m-2"></i></a>
+                <a href="https://www.linkedin.com/in/fernan-de-hoyos-290072197/" target="_blank"><i
+                        class="fab fa-linkedin m-2"></i></a>
+                <a href="mailto:fernandehoyos93@gmail.com?subject=Oferta%20laboral" target="_blank"><i
+                        class="fab fa-google m-2"></i></a>
+
+
+            </div>
+            <div class="container justify-content-center">
+                <a id="descarga" onclick="downloadPDF()" href="/cv" target="_blank" download> Descargar cv</a>
+            </div>
+        </nav>
+
+
+    </div>
+
+    <div class="container mt-3" id="contenedor">
+        <div class="row">
+            <div class="col border-end border-dark " id="texto">
+                <h2 id="acerca" class="pt-3">Acerca de</h2>
+                <p>Perfil profecional desarrollador web, con buenos conocimientos en el desarrollo, analisis e
+                    implementacion de software.
+                    Quiero adquirir mas experiencia en el campo tecnologico como desarrollador
+                    backend, Me considero una persona
+                    responsable y con ganas de aportar todos los
+                    conocimientos que he adquirido en proyectos
+                    propios y academicos, además de seguir
+                    creciendo como profesional.
+                </p>
+
+                <h2 id="educacion">Educacion</h2>
+                <ul>
+                    <li>
+                        <h4>Primaria</h4>
+                        <p>Institucion educativa nuevo paraiso
+                            <br>2007-2012
+                        </p>
+                    </li>
+                    <li>
+                        <h4>Bachillerato</h4>
+                        <p>Institucion educativa nuevo paraiso
+                            <br>2013-2018
+                        </p>
+                    </li>
+                    <li>
+                        <h4>Universidad</h4>
+                        <p>Universidad de Cordoba <br>
+                            Ingeineria de sistemas
+                            <br>2019-actualidad (Octavo semestre)
+                        </p>
+                    </li>
+                </ul>
+
+                <h2 id="Cursos" class="pt-3">Cursos</h2>
+                <div class="container">
+                    <ul>
+                        <li>
+                            <h6>Universidad Spring - Spring Framework y Spring Boot</h6>
+                            <a class="link"
+                                href="https://www.udemy.com/certificate/UC-d482024b-6ed7-4ad8-a5f5-71cee304f2a6/">Mostrar
+                                credenciales</a>
+                        </li>
+                        <li>
+                            <h6>Creación de API REST con Node Js y SQL</h6>
+                            <a class="link"
+                                href="https://www.udemy.com/certificate/UC-fce14b24-db99-434b-896e-afdd53cc7213/">Mostrar
+                                credenciales</a>
+                        </li>
+
+                        <li>
+                            <h6>[Appsco] Curso Gratis de Programación Básica!</h6>
+                            <a class="link"
+                                href="https://platzi.com/p/fernandehoyos93/curso/1193-basica-appsco/diploma/detalle/">Mostrar
+                                credenciales</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col" id="texto">
+
+                <h2 id="experiencia" class="pt-3">Experiencia</h2>
+                <p>En la búsqueda de trabajo donde pueda poner en
+                    practica lo que he aprendido en la universidad, cuento
+                    con conocimientos en NodeJS, Java, JavaScript,
+                    Typescript. Me desempeño en lado del backend.
+                    Aunque no cuente con experiencia laboral cuento
+                    con experiencia adquirida en proyectos para la
+                    universidad y propios</p>
+
+                <h2 id="habilidades">Habilidades</h2>
+                <div class="container" id="texto">
+                    <div class="row">
+                        <h5>Habilidades duras</h5>
+                        <div class="container">
+                            <ul>
+                                <li>Java</li>
+                                <li>MySQL</li>
+                                <li>JavaScript</li>
+                                <li>NodeJs</li>
+                            </ul>
+                            <h5>Habilidades blandas</h5>
+                            <ul>
+                                <li>Typescript</li>
+                                <li>css</li>
+                                <li>html</li>
+                            </ul>
+
+                        </div>
+
+                        <h2>Aptitudes</h2>
+                        <div class="container">
+                            <ul>
+                                <li>Responsable</li>
+                                <li>Trabajo en equipo</li>
+                                <li>Creatividad</li>
+                                <li>Rapido aprendizaje</li>
+                            </ul>
+                        </div>
+                        <h5>Proyectos destacados</h5>
+                        <a href="https://github.com/FernanDeHoyos11/RoundSimulador" class="link">Simulador
+                            RoundRobin</a><br>
+                        <a href="https://github.com/FernanDeHoyos11/MyWebSite" class="link">Sitio web personal</a><br>
+                        <a href="https://github.com/FernanDeHoyos11/NodeDB1" class="link">CRUD con Typescript y
+                            GraphQL</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <center>
+            <h2 id="contacto">Contactame</h2>
+        </center>
+        <div class="mb-3">
+            <form action="" id="form">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" class="form-control" name="email" placeholder="name@example.com"
+                    required>
+
+                <label for="name" class="form-label">Nombre</label>
+                <input type="name" id="name" class="form-control" name="name" placeholder="nombre" required>
+
+                <label for="comen" class="form-label">Comentario</label>
+                <textarea type="text" class="form-control" id="comen" name="comen" rows="5" required></textarea>
+                <input class="btn btn-primary my-3" type="submit" value="Enviar" id="button">
+            </form>
+            <script type="text/javascript"
+                src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+            <script type="text/javascript">
+                emailjs.init('by0Fsx7LEzQFAkeat')
+            </script>
+        </div>
+    </div>
+
+    <footer>
+        <footer class="text-center text-white" style="background-color: #f1f1f1;">
+            <!-- Grid container -->
+            <div class="container pt-4">
+                <!-- Section: Social media -->
+                <section class="mb-3">
+                    <!-- Facebook -->
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1"
+                        href="https://www.facebook.com/fernan.david.5832/" target="_blank" role="button"
+                        data-mdb-ripple-color="dark"><i class="fab fa-facebook-f"></i></a>
+
+                    <!-- Google -->
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1"
+                        href="mailto:fernandehoyos93@gmail.com?subject=Oferta%20laboral" target="blank" role="button"
+                        data-mdb-ripple-color="dark"><i class="fab fa-google"></i></a>
+
+                    <!-- Linkedin -->
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1"
+                        href="https://www.linkedin.com/in/fernan-de-hoyos-290072197/" target="_blank" role="button"
+                        data-mdb-ripple-color="dark"><i class="fab fa-linkedin"></i></a>
+                    <!-- Github -->
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://github.com/FernanDeHoyos11"
+                        target="_blank" role="button" data-mdb-ripple-color="dark"><i class="fab fa-github"></i></a>
+                </section>
+                <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="text-center text-dark">
+                <p>fernandehoyos93@gmail.com | +57 3136601690</p>
+            </div>
+            <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2022 Copyright:
+                <a class="text-dark" href="https://github.com/FernanDeHoyos11">FernanDeHoyos11</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+    </footer>
+</body>
+<script>
+    const btn = document.getElementById('button');
+
+    document.getElementById('form')
+        .addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            btn.value = 'Enviando...';
+
+            const serviceID = 'default_service';
+            const templateID = 'template_oxdi2fi';
+
+            emailjs.sendForm(serviceID, templateID, this)
+                .then(() => {
+                    btn.value = 'Email enviado';
+                    Swal.fire("Mensaje Enviado");
+
+                }, (err) => {
+                    btn.value = 'Send Email';
+                    alert(JSON.stringify(err));
+                });
+                Document.getElementById("email").value = "";
+                    Document.getElementById("name").value = "";
+                    Document.getElementById("comen").value = "";
+        });
+
+
+    function downloadPDF() {
+        // Ruta del archivo PDF
+        const pdfFilePath = './CV.pdf';
+
+        // Crea un enlace temporal
+        const link = document.createElement('a');
+        link.href = pdfFilePath;
+
+        // Agrega el atributo "download" al enlace para que el archivo se descargue en lugar de abrirse en el navegador
+        link.setAttribute('download', 'CV_Fernan-De-Hoyos.pdf');
+
+        // Hace clic en el enlace para descargar el archivo
+        link.click();
+    }
+
+</script>
+
+</html>
