@@ -1,6 +1,23 @@
 body{
-  background-color: rgb(221, 221, 221) !important;
+  background-color: rgb(46, 45, 45) !important;
 }
+
+.ul-proyec{
+  margin: 30px;
+}
+
+.ul-proyec li{
+  width: 80%;
+}
+
+.row{
+  background-color: rgb(44, 44, 43);
+}
+
+.contacto{
+  margin: 30px;
+}
+
 #nombre{
   color: aliceblue;
 }
@@ -24,10 +41,20 @@ body{
   text-align: justify;
 }
 #contenedor{
-  background-color: rgb(212, 212, 212);
+  background-color: rgb(44, 44, 43);
   border-radius: 10px;
 }
 
+#email{
+  background-color: rgb(70, 70, 70);
+  color: aliceblue;
+}
+#name{
+  background-color: rgb(70, 70, 70);
+  color: aliceblue;
+}
 #comen{
   height: 100px;
+  background-color: rgb(70, 70, 70);
+  color: aliceblue;
 }
